@@ -1,7 +1,7 @@
-import * as Usuarios from "./usuarios.controller";
-import * as Reportes from "./reportes.controller";
+import * as Users from "./users.controller";
+import * as Reports from "./reports.controller";
 
 export default {
-    Usuarios,
-    Reportes
+    Users,
+    Reports
 }
