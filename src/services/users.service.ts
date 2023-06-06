@@ -19,7 +19,7 @@ const post_user_service = async (user: user) => {
 
 const put_user_service = async (email: string, user: user) => {
     const response = await UserModel.findOneAndUpdate({email: email}, user);
-    return response ? "USER_CREATED_OK" : "ERROR_CREATING_USER";
+    return response ? "USER_UPDATED_OK" : "ERROR_UPDATING_USER";
 }
 
 const delete_user_service = async (email:string) => {
